@@ -1,0 +1,10 @@
+- name: Main
+  link: /
+- name: Docs
+  link: /docs
+- name: Code
+  link: /code
+- name: Team
+  link: /team
+- name: Papers
+  link: /papers

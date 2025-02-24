@@ -1,0 +1,24 @@
+tmalik:
+	name: Prof. Tanu Malik
+	role: co-PI
+	institution: University of Notre Dame
+klannon:
+	name: Prof. Kevin Lannon
+	role: co-PI
+	institution: University of Notre Dame
+swang:
+	name: Prof. Shaowen Wang
+	role: co-PI
+	institution: University of Notre Dame
+dthain:
+	name: Prof. Douglas Thain
+	role: PI
+	institution: University of Notre Dame
+	photo: images/people/dthain.jpg
+btovar:
+	name: Ben Tovar
+	role: Research Software Engineer
+	institution: University of Notre Dame
+
+
+

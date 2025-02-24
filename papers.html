@@ -1,0 +1,37 @@
+---
+layout: default
+title: Papers
+---
+{% include header.html %}
+
+<h1>Publications</h1>
+
+<ol reversed>
+{% assign papers = site.data.papers | sort:'year' | reverse %}
+{% for p in papers %}
+<li>
+{{p.author}},<br>
+{% if p.basename %}
+<a href=papers/{{p.basename}}> <b>{{p.title}}</b></a>,<br>
+{% elsif p.url %}
+<a href={{p.url}}> <b>{{p.title}}</b></a>,<br>
+{% else %}
+<b>{{p.title}}</b><br>
+{% endif %}
+{% if p.editor %}
+{{p.editor}},
+{% endif %}
+{% if p.journal %}
+{{p.journal}} {{p.volume}}({{p.number}}),
+{% endif %}
+{% if p.conference %}
+{{p.conference}},
+{% endif %}
+{{p.year}}.
+{% if p.doi %}
+DOI: <A href=https://dx.doi.org/{{p.doi}}>{{p.doi}}</a>
+{% endif %}
+({{p.type}})
+{% endfor %}
+</ol>
+
