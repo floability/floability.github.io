@@ -23,7 +23,7 @@ the University of Missouri, and the University of Illinois - Champaign-Urbana.
 {% assign people = site.data.people | sort:'name' %}
 {% for p in people %}
 <div class=profile>
-{% if p.image %}
+{% if p contains image %}
 <img width=128 src={{p.image}}/>
 {% elsif %}
 <img width=128 src=images/people/unknown.jpg/>
