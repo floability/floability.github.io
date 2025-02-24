@@ -1,25 +1,75 @@
 ---
 layout: default
-title: Floability Project
+title: The Floability Project
 ---
+
+<center>
+<h1>The Floability Project</h1>
+</center>
 
 {% include header.html %}
 
-<b><i>Floability</i></b> makes it easy to run complex workflows on clusters via notebooks.
-
-A complete workflow is captured in a <b>floability backpack</b> which contains:
-<ul>
-  <li> A notebook describing the overall workflow.
-  <li> The software environment needed by the workflow.
-  <li> The datasets needed to run the workflow.
-  <li> The cluster resources needed to run the workflow.
-</ul>
-
-Floability builds on a variety of open source technologies, including <a href=jupyter.org>Jupyter</a> to provide interactive notebook environments, <a href=https://facsrv.cs.depaul.edu/~tmalik1/#projects>SciUnit</a> to discover software and data dependencies, <a href=https://ccl.cse.nd.edu/software/taskvine/>TaskVine</a>to express and execute workflows, and <a href=https://conda-forge.org>Conda Forge</a> to provision and deploy software environments.
+<p>
+The <b>Floability Project</b> is an NSF funded research project to enable the rapid
+and portable deployment of notebooks expressing complex scientific workflows across
+a wide range of cyberinfrastructure.  The key technical challenge is that
+<b>notebooks are incomplete</b>: the code by itself cannot be moved between facilities
+without accurately capturing the software dependencies, required datasets,
+and capabilities of the underlying cluster hardware.  Our research team at
+the University of Notre Dame, the University of Missouri, and the University of Illinois
+is developing solutions to discover, express, and deploy the complete set of
+dependencies needed for complex scientific workflows.
+</p>
 
 <hr>
 
-<img src="logos/nsf.png" align=left/>
-This project is supported by the U.S. National Science Foundation under grant OAC-2411436, [CSSI Frameworks: From Notebook to Workflow and Back Again](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2411436).
+<center>
+  
+<p>
+<font size=+2>A plain notebook by itself is not portable across facilities:</font>
+</p>
+<img src=images/cartoons/notebook-fail.png width=80%>
+
+<hr>
+
+<p>
+<font size=+2>A complete workflow is captured in a <b>floability backpack</font>:
+</p>
+
+<table>
+  <tr>
+    <td><img src=images/cartoons/floability-backpack.png>
+    <td>
+      <ul>
+	<li> A notebook containing the the scientific workflow.
+	<li> The software dependencies needed at the manager and worker.
+	<li> A snapshot or specification of the datasets needed for execution.
+	<li> A specification of the cluster resources (nodes, memory, GPU, etc) to run the workflow.
+      </ul>
+    </td>
+</table>
+
+<p>
+<font size=+2>The floability software deploys a backpack into an HPC facility:</font>
+</p>
+<img src=images/cartoons/floability-deploy.png width=80%>
+
+<hr>
+
+<p>
+Floability builds on a variety of open source technologies, including <a href=jupyter.org>Jupyter</a> to provide interactive notebook environments, <a href=https://facsrv.cs.depaul.edu/~tmalik1/#projects>SciUnit</a> to discover software and data dependencies, <a href=https://ccl.cse.nd.edu/software/taskvine/>TaskVine</a> to express and execute workflows, and <a href=https://conda-forge.org>Conda Forge</a> to provision and deploy software environments.
+</p>
+
+<hr>
+
+<table width=100%>
+  <tr>
+    <td><img src="images/logos/nsf.png" width=128></td>
+    <td>This project is supported by the U.S. National Science Foundation under grant OAC-2411436,
+      <a href=https://www.nsf.gov/awardsearch/showAward?AWD_ID=2411436>CSSI Frameworks: From Notebook to Workflow and Back Again</a></td>
+  </tr>
+</table>
+</center>
+  
 
   

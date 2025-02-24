@@ -3,32 +3,53 @@ layout: default
 title: Floability Team
 ---
 
+<head>
+<style>
+  div.profilecontainer {
+      overflow: auto;
+  }
+  div.profile {
+      float: left;
+      width: 150px;
+      height: 250px;
+      border: 1px solid black;
+      background-color: #bbbbbb;
+      margin: 10px;
+      padding: 10px;
+      text-align: center;
+      color: black;
+  }
+  div.profileimage {
+      width: 128px;
+      height: 128px;
+      margin: auto;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover; 
+  };
+</style>
+</head>
+
+
 {% include header.html %}
-
-<script type="text/css">
-div.profile {
-    width=150px;
-    height=300px;
-    background-color: #aaaaff;
-    float: left;
-    border: 1px solid black;
-    margin: 10px;
-}
-</script>
-
 
 The Floability team is a collaboration between the University of Notre Dame,
 the University of Missouri, and the University of Illinois - Champaign-Urbana.
 
-{% assign people = site.data.people | sort:'name' %}
+<div class=profilecontainer>
+
+{% assign people = site.data.people %}
 {% for p in people %}
 <div class=profile>
-{% if p contains image %}
-<img width=128 src={{p.image}}/>
-{% elsif %}
-<img width=128 src=images/people/unknown.jpg/>
+{% if p.image %}
+<div class=profileimage style="background-image: url({{p.image}});"></div>
+{% else %}
+<div class=profileimage style="background-image: url(images/people/unknown.jpg);"></div>
 {% endif %}
 <b>{{p.name}}</b><br>
 {{p.role}}<br>
 {{p.institution}}<br>
+</div>
+{% endfor %}
+
 </div>
