@@ -14,7 +14,7 @@ dthain:
     name: Prof. Douglas Thain
     role: PI
     institution: University of Notre Dame
-    photo: images/people/dthain.jpg
+    image: images/people/dthain.jpg
 btovar:
     name: Ben Tovar
     role: Research Software Engineer
