@@ -21,5 +21,25 @@
 "url" : "http://ccl.cse.nd.edu/research/papers/taskvine-works-2023.pdf",
 "doi" : "10.1145/3624062.3624277",
 "id" : 991
-}
+},
+{
+"type" : "conference",
+"bibtag" : "sciunit-eScience-2017",
+"author" : "Gabriel Fils and Zhihao Yuan and Tanu Malik",
+"title" : "Sciunits: Reusable Research Objects",
+"conference" : "13th IEEE International Conference on e-Science",
+"year" : 2017,
+"url" : "https://dice.cs.depaul.edu/pdfs/pubs/C23.pdf",
+"doi" : "10.1109/eScience.2017.51"
+},
+{
+"type" : "conference",
+"bibtag" : "flinc-eScience-2022",
+"author" : "Raza Ahmad and Nithin Manne and Tanu Malik",
+"title" : "Reproducible Notebook Containers using Application Virtualization",
+"conference" : "18th IEEE International Conference on e-Science",
+"year" : 2022,
+"url" : "https://dice.cs.depaul.edu/pdfs/pubs/C31.pdf",
+"doi" : "10.1109/eScience55777.2022.00015"
+}  
 ]
