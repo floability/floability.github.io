@@ -1,6 +1,7 @@
 - name: Prof. Tanu Malik
   role: co-PI
   institution: University of Missouri
+  image: images/people/tmalik.jpg
 - name: Prof. Kevin Lannon
   role: co-PI
   institution: University of Notre Dame
@@ -30,5 +31,8 @@
   institution: University of Missouri
   image: images/people/asm-shahadat.JPG
 - name: Raza Ahmad
+  role: Ph.D Student
+  institution: DePaul University
+- name: Talha Azaz
   role: Ph.D Student
   institution: DePaul University
