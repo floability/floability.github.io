@@ -1,3 +1,7 @@
+- name: Prof. Douglas Thain
+  role: Principal Investigator
+  institution: University of Notre Dame
+  image: images/people/dthain.jpg
 - name: Prof. Tanu Malik
   role: co-PI
   institution: University of Missouri
@@ -10,22 +14,14 @@
   role: co-PI
   institution: University of Illinois
   image: images/people/swang.jpg
-- name: Prof. Douglas Thain
-  role: Principal Investigator
-  institution: University of Notre Dame
-  image: images/people/dthain.jpg
-- name: Ben Tovar
-  role: Research Software Engineer
-  institution: University of Notre Dame
-  image: images/people/btovar.jpg
 - name: Md Saiful Islam
   role: Ph.D. Student
   institution: University of Notre Dame
   image: images/people/mislam5.jpg
-- name: Dr. Furqan Baig
-  role: Research Programmer
-  institution: University of Illinois Urbana Champaign
-  image: images/people/fbaig-pic-2.jpg
+- name: Talha Azaz
+  role: MS. Student
+  institution: DePaul University
+  image: images/people/TalhaAzaz.jpeg
 - name: A S M Shahadat Hossain
   role: Ph.D. Student
   institution: University of Missouri
@@ -34,7 +30,13 @@
   role: Ph.D. Student
   institution: DePaul University
   image: images/people/raza-ahmad.jpeg
-- name: Talha Azaz
-  role: MS. Student
-  institution: DePaul University
-  image: images/people/TalhaAzaz.jpeg
+- name: Dr. Furqan Baig
+  role: Research Programmer
+  institution: University of Illinois Urbana Champaign
+  image: images/people/fbaig-pic-2.jpg
+- name: Ben Tovar
+  role: Research Software Engineer
+  institution: University of Notre Dame
+  image: images/people/btovar.jpg
+
+
