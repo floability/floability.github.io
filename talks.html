@@ -1,17 +1,26 @@
 ---
 layout: default
-title: Papers
+title: Talks and Presentations
 ---
 {% include header.html %}
 
 <h1>Talks and Presentations</h1>
 
-{% assign talks = site.data.talks }
+<table>
+
+{% assign talks = site.data.talks %}
 {% for t in talks %}
-<a href={{t.link}}> <img src={{t.thumbnail}} align=left> </a>
+<tr>
+<td>
+<a href={{t.url}}> <img src="{{t.thumbnail}}" width=192 align=left> </a>
+</td>
+<td>
 {{t.author}}<br>
-<a href={{t.link}}>{{t.title}}</a><br>
+<a href={{t.url}}>{{t.title}}</a><br>
 {{t.conference}}, {{t.year}}.<br>
-<p>
+</td>
+</tr>
 {% endfor %}
+
+</table>
 
