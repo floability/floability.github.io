@@ -1,6 +1,6 @@
 [
 {
-"type" : "conference",
+"type" : "background",
 "bibtag" : "reshaping-sc-2024",
 "author" : "Barry Sly-Delgado and Ben Tovar and Jin Zhou and Douglas Thain",
 "title" : "Reshaping High Energy Physics Applications for Near-Interactive Execution Using TaskVine",
@@ -12,7 +12,7 @@
 }
 ,
 {
-"type" : "conference",
+"type" : "background",
 "bibtag" : "taskvine-works-2023",
 "author" : "Barry Sly-Delgado and Thanh Son Phung and Colin Thomas and David Simonetti and Andrew Hennessee and Ben Tovar and Douglas Thain",
 "title" : "TaskVine: Managing In-Cluster Storage for High-Throughput Data Intensive Workflows",
@@ -23,7 +23,7 @@
 "id" : 991
 },
 {
-"type" : "conference",
+"type" : "background",
 "bibtag" : "sciunit-eScience-2017",
 "author" : "Gabriel Fils and Zhihao Yuan and Tanu Malik",
 "title" : "Sciunits: Reusable Research Objects",
@@ -33,7 +33,7 @@
 "doi" : "10.1109/eScience.2017.51"
 },
 {
-"type" : "conference",
+"type" : "background",
 "bibtag" : "flinc-eScience-2022",
 "author" : "Raza Ahmad and Nithin Manne and Tanu Malik",
 "title" : "Reproducible Notebook Containers using Application Virtualization",
