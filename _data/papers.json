@@ -1,6 +1,16 @@
 [
 {
 "type" : "background",
+"bibtag" : "sri-acmrep-2025",
+"author" : "A S M Shahadat Hossain and Colin Brown and David Koop and Tanu Malik",
+"title" : "Similarity-Based Assessment of Computational Reproducibility in Jupyter Notebooks",
+"conference" : "ACM REP 2025",
+"year" : 2025,
+"url" : "https://drive.google.com/file/d/13vWuZ9c7Fw9O5LqKIA7KNtAS74jkrd5o/view?usp=sharing",
+"id" : 35
+},
+{
+"type" : "background",
 "bibtag" : "reshaping-sc-2024",
 "author" : "Barry Sly-Delgado and Ben Tovar and Jin Zhou and Douglas Thain",
 "title" : "Reshaping High Energy Physics Applications for Near-Interactive Execution Using TaskVine",
