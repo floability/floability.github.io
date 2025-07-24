@@ -1,5 +1,13 @@
 [
 {
+"type" : "proceedings",
+"bibtag" : "backpacks-escience-2025",
+"author" : "Md Saiful Islam, Talha Azaz, Raza Ahmad, A S M Shahadat Hossain, Furqan Baig, Shaowen Wang, Kevin Lannon, Tanu Malik and Douglas Thain",
+"title" : "Backpacks for Notebooks: Enabling Containerized Notebook Workflows in Distributed Environments",
+"conference" : "21st IEEE International Conference on e-Science",
+"year" : 2025
+},
+{
 "type" : "background",
 "bibtag" : "sri-acmrep-2025",
 "author" : "A S M Shahadat Hossain and Colin Brown and David Koop and Tanu Malik",
