@@ -1,12 +1,21 @@
 [
 {
 "type" : "poster",
+"author" : "Douglas Thain and the Floability Team",
+"title" : "CSSI Frameworks: From Notebook to Workflow and Back Again",
+"conference" : "NSF CSSI PI Meeting",
+"year" : 2025,
+"thumbnail" : "/images/thumbnails/poster-floability-hpdc2025.png",
+"url" : "/talks/poster-floability-cssi-2025.pdf"
+},
+{
+"type" : "poster",
 "author" : "Md Saiful Islam and the Floability Team",
 "title" : "Floability: Enabling Portable Scientific Workflows Across HPC Facilities",
 "conference" : "ACM International Symposium on High-Performance Parallel and Distributed Computing (HPDC)",
 "year" : 2025,
 "thumbnail" : "/images/thumbnails/poster-floability-hpdc2025.png",
-"url" : "https://drive.google.com/file/d/1Ry2TfTWP4bWCW7l-86JI6rC1aKy2N3Tk/view"
+"url" : "/talks/poster-floability-hpdc-2025.pdf"
 },
 {
 "type" : "talk",
@@ -15,6 +24,6 @@
 "conference" : "Throughput Computing",
 "year" : 2025,
 "thumbnail" : "/images/thumbnails/floability-htc-2025.png",
-"url" : "https://docs.google.com/presentation/d/1NwS9SysDQ2J1MDhhoDj4sazlSBfaH_GDbzhLCdvS_ao"
+"url" : "/talks/floability-htc-2025.pdf"
 }
 ]
