@@ -1,4 +1,13 @@
 [
+  {
+    "type": "talk",
+    "author" : "Tanu Malik",
+    "title" : "Interactive, Reproducible Notebook Workflows at Scale",
+    "conference" : "Workshop on Python Workflow Harmony",
+    "year" : "2025",
+    "thumbnail" : "/images/thumbnails/floability-harmony-2025.png",
+    "url" : "/talks/floability-harmony-2025.pdf"
+  },   
 {
 "type" : "poster",
 "author" : "Douglas Thain, Kevin Lannon, Tanu Malik, and Shaowen Wang",
