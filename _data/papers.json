@@ -5,7 +5,8 @@
 "author" : "Md Saiful Islam, Talha Azaz, Raza Ahmad, A S M Shahadat Hossain, Furqan Baig, Shaowen Wang, Kevin Lannon, Tanu Malik and Douglas Thain",
 "title" : "Backpacks for Notebooks: Enabling Containerized Notebook Workflows in Distributed Environments",
 "conference" : "21st IEEE International Conference on e-Science",
-"year" : 2025
+"year" : 2025,
+"url" : "https://ccl.cse.nd.edu/assets/pdf/floability-escience-2025.pdf"
 },
 {
 "type" : "background",
@@ -25,7 +26,7 @@
 "conference" : "ACM/IEEE Supercomputing",
 "pages" : "1-11",
 "year" : 2024,
-"url" : "http://ccl.cse.nd.edu/research/papers/reshaping-sc-2024.pdf",
+"url" : "https://ccl.cse.nd.edu/assets/pdf/reshaping-sc-2024.pdf",
 "id" : 996
 }
 ,
@@ -36,7 +37,7 @@
 "title" : "TaskVine: Managing In-Cluster Storage for High-Throughput Data Intensive Workflows",
 "conference" : " 18th Workshop on Workflows in Support of Large-Scale Science",
 "year" : 2023,
-"url" : "http://ccl.cse.nd.edu/research/papers/taskvine-works-2023.pdf",
+"url" : "http://ccl.cse.nd.edu/assets/pdf/taskvine-works-2023.pdf",
 "doi" : "10.1145/3624062.3624277",
 "id" : 991
 },
