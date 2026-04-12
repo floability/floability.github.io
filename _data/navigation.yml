@@ -1,7 +1,7 @@
 - name: Project
   link: /
 - name: Docs
-  link: /docs
+  link: https://floability.readthedocs.io
 - name: Code
   link: /code
 - name: Talks
