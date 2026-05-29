@@ -1,4 +1,13 @@
 [
+{
+    "type": "talk",
+    "author" : "Raza Ahmad",
+    "title" : "Efficiently Reproducing Distributed Workflows in Notebook-based Systems",
+    "conference" : "The 26th IEEE International Symposium on Cluster, Cloud, and Internet Computing",
+    "year" : "2026",
+    "thumbnail" : "/images/thumbnails/presentation-NBReplay-CCGrid-2026.png",
+    "url" : "/talks/NBReplay-CCGrid-2026.pdf"
+},   
   {
     "type": "talk",
     "author" : "Tanu Malik",
@@ -7,7 +16,7 @@
     "year" : "2025",
     "thumbnail" : "/images/thumbnails/floability-harmony-2025.png",
     "url" : "/talks/floability-harmony-2025.pdf"
-  },   
+},   
 {
 "type" : "poster",
 "author" : "Douglas Thain, Kevin Lannon, Tanu Malik, and Shaowen Wang",

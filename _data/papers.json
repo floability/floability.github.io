@@ -1,6 +1,15 @@
 [
 {
 "type" : "proceedings",
+"bibtag" : "nbreplay-ccgrid-2026",
+"author" : "Talha Azaz, Raza Ahmad, Md Saiful Islam, Douglas Thain, and Tanu Malik",
+"title" : "Efficiently Reproducing Distributed Workflows in Notebook-based Systems",
+"conference" : "The 26th IEEE International Symposium on Cluster, Cloud, and Internet Computing",
+"year" : 2026,
+"url" : "https://radiant-systems-lab.github.io/pdfs/pdfs/pubs/IEEE_CCGrid_25.pdf"
+},
+{
+"type" : "proceedings",
 "bibtag" : "backpacks-escience-2025",
 "author" : "Md Saiful Islam, Talha Azaz, Raza Ahmad, A S M Shahadat Hossain, Furqan Baig, Shaowen Wang, Kevin Lannon, Tanu Malik and Douglas Thain",
 "title" : "Backpacks for Notebooks: Enabling Containerized Notebook Workflows in Distributed Environments",
