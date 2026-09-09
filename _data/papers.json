@@ -1,4 +1,12 @@
 [
+"type" : "proceedings",
+"bibtag" : "backpacks-escience-2025",
+"author" : "Md Saiful Islam, Reyer Band, Jin Zhou, Tanu Malik, Kevin Lannon, and Douglas Thain",
+"title" : "Declare, Resolve, Reuse: A Portable Data Layer for Notebook Workflows Across HPC Systems",
+"conference" : "22nd IEEE International Conference on e-Science",
+"year" : 2026,
+"url" : "https://ccl.cse.nd.edu/assets/paper/pdf/floability-escience-2026.pdf"
+},
 {
 "type" : "proceedings",
 "bibtag" : "nbreplay-ccgrid-2026",
