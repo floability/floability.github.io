@@ -1,0 +1,128 @@
+---
+layout: default
+title: Portable by Design Tutorial
+description: The starting point for the eScience 2026 Portable by Design hands-on tutorial.
+---
+
+<style>
+  .tutorial-hero {
+    margin: 1.5rem 0 2rem;
+    padding: 2rem 1.5rem;
+    text-align: center;
+    background: #f3f7f6;
+    border: 1px solid #d9e5e2;
+    border-radius: 8px;
+  }
+
+  .tutorial-kicker {
+    margin: 0 0 0.4rem;
+    color: #3b6f65;
+    font-size: 0.95rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+
+  .tutorial-hero h1 {
+    margin: 0;
+  }
+
+  .tutorial-subtitle {
+    margin: 0.6rem auto 1.5rem;
+    max-width: 42rem;
+    font-size: 1.2rem;
+  }
+
+  .tutorial-button {
+    display: inline-block;
+    padding: 0.8rem 1.2rem;
+    color: #fff !important;
+    background: #2f6f62;
+    border-radius: 5px;
+    font-weight: 700;
+    text-decoration: none;
+  }
+
+  .tutorial-button:hover,
+  .tutorial-button:focus {
+    background: #24564c;
+  }
+
+  .tutorial-routes {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+    margin: 1rem 0 2rem;
+  }
+
+  .tutorial-route {
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+  }
+
+  .tutorial-route h3 {
+    margin-top: 0;
+  }
+
+  @media (max-width: 600px) {
+    .tutorial-routes {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>
+
+{% include header.html %}
+
+<div class="tutorial-hero">
+  <p class="tutorial-kicker">eScience 2026 Hands-on Tutorial</p>
+  <h1>Portable by Design</h1>
+  <p class="tutorial-subtitle">
+    Deploying Notebook-based Scientific Workflows Across HPC Clusters
+  </p>
+  <a class="tutorial-button" href="https://floability.github.io/tutorial-portable-by-design/">
+    Open the tutorial instructions
+  </a>
+</div>
+
+<p>
+  This is the starting point for the tutorial. The complete instructions cover
+  access and setup, TaskVine, Sciunit, and Floability, with runnable examples
+  for each hands-on exercise.
+</p>
+
+<h2>Choose your setup</h2>
+
+<div class="tutorial-routes">
+  <div class="tutorial-route">
+    <h3>Attending the live tutorial</h3>
+    <p>
+      Have your printed credential card ready, then connect to your assigned
+      tutorial server.
+    </p>
+    <a href="https://floability.github.io/tutorial-portable-by-design/01-access-and-setup/live/">
+      Connect to the tutorial server →
+    </a>
+  </div>
+
+  <div class="tutorial-route">
+    <h3>Following on your own</h3>
+    <p>
+      Clone the materials and create the tutorial environment on an x86-64
+      Linux computer or server.
+    </p>
+    <a href="https://floability.github.io/tutorial-portable-by-design/01-access-and-setup/self-managed/">
+      Create your own environment →
+    </a>
+  </div>
+</div>
+
+<h2>Tutorial resources</h2>
+
+<ul>
+  <li><a href="https://floability.github.io/tutorial-portable-by-design/">Complete tutorial</a></li>
+  <li><a href="https://github.com/floability/tutorial-portable-by-design">Tutorial repository</a></li>
+  <li><a href="https://cctools.readthedocs.io/en/stable/taskvine/">TaskVine documentation</a></li>
+  <li><a href="https://github.com/radiant-systems-lab/sciunit">Sciunit</a></li>
+  <li><a href="https://floability.readthedocs.io/en/stable/">Floability documentation</a></li>
+</ul>
