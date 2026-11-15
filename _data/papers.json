@@ -1,6 +1,16 @@
 [
 {
 "type" : "proceedings",
+"bibtag" : "site-profiles-works-2026",
+"author" : "Md Saiful Islam and Douglas Thain",
+"title" : "The Other Half of Workflow Portability: Evidence-Backed HPC Site Profiles with Agentic Discovery",
+"conference" : "21st Workshop on Workflows in Support of Large-Scale Science (WORKS 2026), held with SC26",
+"year" : 2026,
+"url" : "https://arxiv.org/abs/2610.00971",
+"doi" : "10.48550/arXiv.2610.00971"
+},
+{
+"type" : "proceedings",
 "bibtag" : "floability-escience-2026",
 "author" : "Md Saiful Islam, Reyer Band, Jin Zhou, Tanu Malik, Kevin Lannon, and Douglas Thain",
 "title" : "Declare, Resolve, Reuse: A Portable Data Layer for Notebook Workflows Across HPC Systems",

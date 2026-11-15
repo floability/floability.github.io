@@ -7,8 +7,9 @@ title: Papers
 <h1>Publications</h1>
 
 <ol reversed>
-{% assign papers = site.data.papers | sort:'year' | reverse %}
-{% for p in papers %}
+{% assign years = site.data.papers | group_by:'year' | sort:'name' | reverse %}
+{% for year in years %}
+{% for p in year.items %}
 <li>
 {{p.author}},<br>
 {% if p.basename %}
@@ -32,6 +33,7 @@ title: Papers
 DOI: <A href=https://dx.doi.org/{{p.doi}}>{{p.doi}}</a>
 {% endif %}
 ({{p.type}})
+{% endfor %}
 {% endfor %}
 </ol>
 
