@@ -7,6 +7,7 @@
 "conference" : "21st Workshop on Workflows in Support of Large-Scale Science (WORKS 2026), held with SC26",
 "year" : 2026,
 "url" : "https://arxiv.org/abs/2610.00971",
+"code" : "https://github.com/floability/hpc-site-preflight",
 "doi" : "10.48550/arXiv.2610.00971"
 },
 {

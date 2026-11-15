@@ -33,6 +33,9 @@ title: Papers
 DOI: <A href=https://dx.doi.org/{{p.doi}}>{{p.doi}}</a>
 {% endif %}
 ({{p.type}})
+{% if p.code %}
+<a href={{p.code}}>[code]</a><br>
+{% endif %}
 {% endfor %}
 {% endfor %}
 </ol>
